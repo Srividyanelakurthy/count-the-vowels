@@ -1,0 +1,7 @@
+s = input() 
+count = 0
+print("Number of vowels: ", end="")
+for char in s:
+    if char in 'aeiouAEIOU':
+        count += 1
+print(count)
